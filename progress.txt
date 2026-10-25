@@ -4,12 +4,13 @@ ATELIER BUILD PROGRESS & SESSION MEMORY
 
 LAST UPDATED: 2026-10-25
 CURRENT PHASE: Phase 1 (Project Scaffolding & Environment Setup)
+GITHUB REPOSITORY: https://github.com/Irwaresly/Fashion (Public)
 
 [COMPLETED]
-- Phase 0: Interrogation System
+- Phase 0: Interrogation System & Canonical Documentation
   * Full product scope interrogation completed.
   * Extracted core persona, 2D VTON architecture, MediaPipe pose keypoints, hybrid affiliate/boutique monetization.
-  * Locked all 6 Canonical Documentation files:
+  * Generated and locked all 6 Canonical Documentation files:
     - PRD.md (Product spec & boundaries)
     - APP_FLOW.md (Navigation routes & interaction flows)
     - TECH_STACK.md (Locked libraries and versions)
@@ -17,6 +18,7 @@ CURRENT PHASE: Phase 1 (Project Scaffolding & Environment Setup)
     - BACKEND_STRUCTURE.md (PostgreSQL schema, RLS, storage buckets)
     - IMPLEMENTATION_PLAN.md (Execution sequence)
   * Generated persistence layer: CLAUDE.md, progress.txt, lessons.md.
+  * Configured Git repository & published to GitHub: https://github.com/Irwaresly/Fashion.
 
 [IN PROGRESS]
 - Step 1.1: Initialize Next.js 14 App Router project with TypeScript, ESLint, and Tailwind CSS.
@@ -28,7 +30,7 @@ CURRENT PHASE: Phase 1 (Project Scaffolding & Environment Setup)
 - Step 1.5: Set up Supabase client utilities in src/lib/supabase/.
 
 [KNOWN BUGS / ISSUES]
-- None yet (clean baseline).
+- Windows Defender Controlled Folder Access locks C:\Users\USER\Documents from script subfolder creation; development relocated cleanly to C:\Users\USER\Projects\Fashion.
 
 [BLOCKERS]
 - None.
