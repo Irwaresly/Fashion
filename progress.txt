@@ -1,0 +1,34 @@
+======================================================================
+ATELIER BUILD PROGRESS & SESSION MEMORY
+======================================================================
+
+LAST UPDATED: 2026-10-25
+CURRENT PHASE: Phase 1 (Project Scaffolding & Environment Setup)
+
+[COMPLETED]
+- Phase 0: Interrogation System
+  * Full product scope interrogation completed.
+  * Extracted core persona, 2D VTON architecture, MediaPipe pose keypoints, hybrid affiliate/boutique monetization.
+  * Locked all 6 Canonical Documentation files:
+    - PRD.md (Product spec & boundaries)
+    - APP_FLOW.md (Navigation routes & interaction flows)
+    - TECH_STACK.md (Locked libraries and versions)
+    - FRONTEND_GUIDELINES.md (Design system, tokens, typography)
+    - BACKEND_STRUCTURE.md (PostgreSQL schema, RLS, storage buckets)
+    - IMPLEMENTATION_PLAN.md (Execution sequence)
+  * Generated persistence layer: CLAUDE.md, progress.txt, lessons.md.
+
+[IN PROGRESS]
+- Step 1.1: Initialize Next.js 14 App Router project with TypeScript, ESLint, and Tailwind CSS.
+
+[NEXT]
+- Step 1.2: Install locked dependencies from TECH_STACK.md.
+- Step 1.3: Configure tailwind.config.js with Atelier tokens per FRONTEND_GUIDELINES.md.
+- Step 1.4: Create .env.example and configure .gitignore.
+- Step 1.5: Set up Supabase client utilities in src/lib/supabase/.
+
+[KNOWN BUGS / ISSUES]
+- None yet (clean baseline).
+
+[BLOCKERS]
+- None.
